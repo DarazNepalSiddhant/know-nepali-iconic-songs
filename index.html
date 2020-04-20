@@ -1,0 +1,444 @@
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        #win,
+        #lose,
+        #Question02,
+        #Question03,
+        #Question04,
+        #Question05,
+        #Question06,
+        #Question07,
+        #Question08,
+        #Question09,
+        #Question10,
+        #case00,
+        #case01,
+        #case02,
+        #case03,
+        #case04,
+        #case05,
+        #case06,
+        #case07,
+        #case08,
+        #case09,
+        #case10 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="Question01">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1y33xCKH2gK0jSZFEXXcqMpXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a1" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="bistarai bistarai - rohit john chettri.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A1"><img src="https://img.alicdn.com/tfs/TB1f0.uCFY7gK0jSZKzXXaikpXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A2"><img src="https://img.alicdn.com/tfs/TB15R7vCRv0gK0jSZKbXXbK2FXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A3"><img src="https://img.alicdn.com/tfs/TB1JZQBCG61gK0jSZFlXXXDKFXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A4"><img src="https://img.alicdn.com/tfs/TB18FgvCUz1gK0jSZLeXXb9kVXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question02" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1WOdgC.Y1gK0jSZFMXXaWcVXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a2" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="Chaubandima  cholo.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A1"><img src="https://img.alicdn.com/tfs/TB1.oXkC7T2gK0jSZFkXXcIQFXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A2"><img src="https://img.alicdn.com/tfs/TB1FYpfC7L0gK0jSZFtXXXQCXXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A3"><img src="https://img.alicdn.com/tfs/TB1yCteC.z1gK0jSZLeXXb9kVXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A4"><img src="https://img.alicdn.com/tfs/TB10.dkC7T2gK0jSZFkXXcIQFXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question03" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1V8phC.T1gK0jSZFhXXaAtVXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a3" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="resham - nepathy.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A1"><img src="https://img.alicdn.com/tfs/TB11OJjC4v1gK0jSZFFXXb0sXXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A2"><img src="https://img.alicdn.com/tfs/TB1weJgC.T1gK0jSZFrXXcNCXXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A3"><img src="https://img.alicdn.com/tfs/TB1aU0jC7T2gK0jSZPcXXcKkpXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A4"><img src="https://img.alicdn.com/tfs/TB1a0tiC7Y2gK0jSZFgXXc5OFXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question04" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1.pRgC8v0gK0jSZKbXXbK2FXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a4" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="Parelima.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q4A1"><img src="https://img.alicdn.com/tfs/TB1fMBgC7P2gK0jSZPxXXacQpXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q4A2"><img src="https://img.alicdn.com/tfs/TB1eztpC8r0gK0jSZFnXXbRRXXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q4A3"><img src="https://img.alicdn.com/tfs/TB1u0JlC7T2gK0jSZFkXXcIQFXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q4A4"><img src="https://img.alicdn.com/tfs/TB1uldkC4D1gK0jSZFyXXciOVXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question05" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1azpgC4n1gK0jSZKPXXXvUXXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a5" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="gurasa ko feda muni.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q5A1"><img src="https://img.alicdn.com/tfs/TB1ZwVlC7T2gK0jSZFkXXcIQFXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q5A2"><img src="https://img.alicdn.com/tfs/TB1nGpjC5_1gK0jSZFqXXcpaXXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q5A3"><img src="https://img.alicdn.com/tfs/TB1TfhfCVT7gK0jSZFpXXaTkpXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q5A4"><img src="https://img.alicdn.com/tfs/TB1H54iC7Y2gK0jSZFgXXc5OFXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question06" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1QgtjC7L0gK0jSZFxXXXWHVXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a6" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="audai jadai.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A1"><img src="https://img.alicdn.com/tfs/TB1EJdkC4D1gK0jSZFKXXcJrVXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A2"><img src="https://img.alicdn.com/tfs/TB1ycXgC4D1gK0jSZFsXXbldVXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A3"><img src="https://img.alicdn.com/tfs/TB10NXgC.H1gK0jSZSyXXXtlpXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A4"><img src="https://img.alicdn.com/tfs/TB1XgRfC2b2gK0jSZK9XXaEgFXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question07" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1s6XkCYH1gK0jSZFwXXc7aXXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a7" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="harpal.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A1"><img src="https://img.alicdn.com/tfs/TB1YOFjC5_1gK0jSZFqXXcpaXXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A2"><img src="https://img.alicdn.com/tfs/TB1iANgCVP7gK0jSZFjXXc5aXXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A3"><img src="https://img.alicdn.com/tfs/TB1S6XkCYH1gK0jSZFwXXc7aXXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A4"><img src="https://img.alicdn.com/tfs/TB1bVhmC7T2gK0jSZFkXXcIQFXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question08" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB15BVkCYH1gK0jSZFwXXc7aXXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a8" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="nischal - albtross.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A1"><img src="https://img.alicdn.com/tfs/TB1uXFlC.Y1gK0jSZFCXXcwqXXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A2"><img src="https://img.alicdn.com/tfs/TB1QKdmCW61gK0jSZFlXXXDKFXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A3"><img src="https://img.alicdn.com/tfs/TB1QmlgC.H1gK0jSZSyXXXtlpXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A4"><img src="https://img.alicdn.com/tfs/TB1z_BgCVP7gK0jSZFjXXc5aXXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question09" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1hNBmCW61gK0jSZFlXXXDKFXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a9" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="Syndicate Bipul Chettri.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q9A1"><img src="https://img.alicdn.com/tfs/TB1OCRlC4D1gK0jSZFyXXciOVXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q9A2"><img src="https://img.alicdn.com/tfs/TB1jptiC.Y1gK0jSZFMXXaWcVXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q9A3"><img src="https://img.alicdn.com/tfs/TB1_wFdCWL7gK0jSZFBXXXZZpXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q9A4"><img src="https://img.alicdn.com/tfs/TB18MpiC9f2gK0jSZFPXXXsopXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question10" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1mf4lC.Y1gK0jSZFCXXcwqXXa-718-557.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <audio autoplay id="a10" style="max-width: 718px;width:100%;background-color: #fa803f;" allow="autoplay" controls loop>
+                    <source src="Ritu Deepak Bajracharya.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A1"><img src="https://img.alicdn.com/tfs/TB1nL0lC7T2gK0jSZPcXXcKkpXa-718-186.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A2"><img src="https://img.alicdn.com/tfs/TB17chlCYH1gK0jSZFwXXc7aXXa-718-178.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A3"><img src="https://img.alicdn.com/tfs/TB1SZVhC4z1gK0jSZSgXXavwpXa-718-180.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A4"><img src="https://img.alicdn.com/tfs/TB1O2dlC1L2gK0jSZFmXXc7iXXa-718-249.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="case00">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1QkT.Avb2gK0jSZK9XXaEgFXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case01">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB19xIeAuL2gK0jSZFmXXc7iXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case02">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1fscfArj1gK0jSZFOXXc7GpXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case03">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1rbMbAxn1gK0jSZKPXXXvUXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case04">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1AI.aAuT2gK0jSZFvXXXnFXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case05">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1o..gAAT2gK0jSZFkXXcIQFXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case06">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1esZdACf2gK0jSZFPXXXsopXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case07">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1v6EgAxD1gK0jSZFyXXciOVXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case08">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1nJglABr0gK0jSZFnXXbRRXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case09">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1Cd.lABr0gK0jSZFnXXbRRXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case10">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1z8ZbAxD1gK0jSZFsXXbldVXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/how_well_do_you_know_nepali_iconic_songs" title="How well do you know nepali iconic songs?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var a1 = document.getElementById('a1');
+            a1.volume = 0.5;
+            var a2 = document.getElementById('a2');
+            a2.volume = 0.5;
+            var a3 = document.getElementById('a3');
+            a3.volume = 0.5;
+            var a4 = document.getElementById('a4');
+            a4.volume = 0.5;
+            var a5 = document.getElementById('a5');
+            a5.volume = 0.5;
+            var a6 = document.getElementById('a6');
+            a6.volume = 0.5;
+            var a7 = document.getElementById('a7');
+            a7.volume = 0.5;
+            var a8 = document.getElementById('a8');
+            a8.volume = 0.5;
+            var a9 = document.getElementById('a9');
+            a9.volume = 0.5;
+            var a10 = document.getElementById('a10');
+            a10.volume = 0.5;
+            var correct = 0;
+            $("#Q1A1, #Q1A2, #Q1A3, #Q1A4").click(function() {
+                a1.src = "";
+                console.log($(this).attr("id"));
+                if ($(this).attr("id") == "Q1A3")
+                    correct = correct + 1;
+                $("#Question01").hide();
+                $("#Question02").css("display", "block");
+            });
+            $("#Q2A1, #Q2A2, #Q2A3, #Q2A4").click(function() {
+                a2.src = "";
+                if ($(this).attr("id") == "Q2A1")
+                    correct = correct + 1;
+                $("#Question02").hide();
+                $("#Question03").css("display", "block");
+            });
+            $("#Q3A1, #Q3A2, #Q3A3, #Q3A4").click(function() {
+                a3.src = "";
+                if ($(this).attr("id") == "Q3A2")
+                    correct = correct + 1;
+                $("#Question03").hide();
+                $("#Question04").css("display", "block");
+            });
+            $("#Q4A1, #Q4A2, #Q4A3, #Q4A4").click(function() {
+                a4.src = "";
+                if ($(this).attr("id") == "Q4A3")
+                    correct = correct + 1;
+                $("#Question04").hide();
+                $("#Question05").css("display", "block");
+            });
+            $("#Q5A1, #Q5A2, #Q5A3, #Q5A4").click(function() {
+                a5.src = "";
+                if ($(this).attr("id") == "Q5A3")
+                    correct = correct + 1;
+                $("#Question05").hide();
+                $("#Question06").css("display", "block");
+            });
+            $("#Q6A1, #Q6A2, #Q6A3, #Q6A4").click(function() {
+                a6.src = "";
+                if ($(this).attr("id") == "Q6A2")
+                    correct = correct + 1;
+                $("#Question06").hide();
+                $("#Question07").css("display", "block");
+            });
+            $("#Q7A1, #Q7A2, #Q7A3, #Q7A4").click(function() {
+                a7.src = "";
+                if ($(this).attr("id") == "Q7A3")
+                    correct = correct + 1;
+                $("#Question07").hide();
+                $("#Question08").css("display", "block");
+            });
+            $("#Q8A1, #Q8A2, #Q8A3, #Q8A4").click(function() {
+                a8.src = "";
+                if ($(this).attr("id") == "Q8A1")
+                    correct = correct + 1;
+                $("#Question08").hide();
+                $("#Question09").css("display", "block");
+            });
+            $("#Q9A1, #Q9A2, #Q9A3, #Q9A4").click(function() {
+                a9.src = "";
+                if ($(this).attr("id") == "Q9A2")
+                    correct = correct + 1;
+                $("#Question09").hide();
+                $("#Question10").css("display", "block");
+            });
+            $("#Q10A1, #Q10A2, #Q10A3, #Q10A4").click(function() {
+                a10.src = "";
+                if ($(this).attr("id") == "Q10A3")
+                    correct = correct + 1;
+                $("#Question10").hide();
+                showCase();
+            });
+
+            function showCase() {
+                switch (correct) {
+                    case 0:
+                        $("#case00").css("display", "block");
+                        break;
+                    case 1:
+                        $("#case01").css("display", "block");
+                        break;
+                    case 2:
+                        $("#case02").css("display", "block");
+                        break;
+                    case 3:
+                        $("#case03").css("display", "block");
+                        break;
+                    case 4:
+                        $("#case04").css("display", "block");
+                        break;
+                    case 5:
+                        $("#case05").css("display", "block");
+                        break;
+                    case 6:
+                        $("#case06").css("display", "block");
+                        break;
+                    case 7:
+                        $("#case07").css("display", "block");
+                        break;
+                    case 8:
+                        $("#case08").css("display", "block");
+                        break;
+                    case 9:
+                        $("#case09").css("display", "block");
+                        break;
+                    case 10:
+                        $("#case10").css("display", "block");
+                        break;
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
